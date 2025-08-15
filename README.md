@@ -45,7 +45,7 @@ Project/
 │── README.md # Project documentation
 
 
----
+---```
 
 ## How to Run Locally
 

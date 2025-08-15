@@ -48,13 +48,15 @@ Project/
 ---
 ```
 
-
+---
 ## How to Run Locally
 
 ### 1️ Clone the Repository
 
 git clone https://github.com/YOUR_USERNAME/PROJECT_NAME.git
 
+---
+---
 ## Create and Activate Virtual Environment
 bash 
 
@@ -66,6 +68,8 @@ venv\Scripts\activate
 # Mac/Linux
 source venv/bin/activate
 
+---
+---
 ##Install and Run Ollama
 
 # Download Ollama from: https://ollama.ai
@@ -73,9 +77,14 @@ Then pull the embedding model:
 
 ollama pull mxbai-embed-large
 
+---
+---
+
 ## Start Flask App
 python app.py
 
+---
+---
 ##Access the app in browser at:
 http://127.0.0.1:5000
 

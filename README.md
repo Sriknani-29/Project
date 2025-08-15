@@ -1,7 +1,7 @@
-# Research Paper Q&A System (Rag Model Using LLM)
+# CVPR for Rag Model Using LLM
 
 ## Overview 
-The **Research Paper Q&A System** is a Flask-based web application that allows users to:
+The **CVPR for Rag Model Using LLM** is a Flask-based web application that allows users to:
 - Upload a research paper in PDF format.
 - Automatically extract and store the document’s content using **LangChain** and **ChromaDB**.
 - Ask natural language questions about the research paper and get accurate answers.

@@ -58,15 +58,12 @@ git clone https://github.com/YOUR_USERNAME/PROJECT_NAME.git
 ---
 
 ## Create and Activate Virtual Environment
-bash 
 
+bash 
 python -m venv venv
 
 # Windows
 venv\Scripts\activate
-
-# Mac/Linux
-source venv/bin/activate
 
 ---
 

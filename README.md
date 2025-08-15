@@ -68,7 +68,7 @@ source venv/bin/activate
 
 ##Install and Run Ollama
 
-Download Ollama from: https://ollama.ai
+# Download Ollama from: https://ollama.ai
 Then pull the embedding model:
 
 ollama pull mxbai-embed-large

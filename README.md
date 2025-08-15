@@ -31,6 +31,7 @@ This project demonstrates **RAG (Retrieval-Augmented Generation)** to retrieve r
 ---
 
 ## Project Structure
+```bash
 Project/
 │── app.py # Flask application entry point
 │── vector.py # Vector store creation and PDF processing
@@ -49,7 +50,7 @@ Project/
 ## How to Run Locally
 
 ### 1️ Clone the Repository
-```bash
+
 git clone https://github.com/YOUR_USERNAME/PROJECT_NAME.git
 cd PROJECT_NAME
 

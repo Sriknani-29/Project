@@ -1,0 +1,29 @@
+# Core dependencies for RAG implementation
+flask>=2.3.0
+langchain>=0.1.0
+langchain-community>=0.0.10
+langchain-openai>=0.0.5
+openai>=1.3.7
+chromadb>=0.4.18
+sentence-transformers>=2.2.2
+transformers>=4.35.2
+# torch>=2.1.1  # Commented out as it can be installed separately if needed
+numpy>=1.24.3
+pandas>=2.1.3
+pypdf>=3.17.1
+python-dotenv>=1.0.0
+tiktoken>=0.5.1
+faiss-cpu>=1.7.4
+streamlit>=1.28.1
+gradio>=4.0.2
+
+# Local AI and Ollama
+ollama>=0.1.7
+langchain-ollama>=0.1.0
+ctransformers>=0.2.27
+llama-cpp-python>=0.2.11
+
+# Optional: For advanced features
+# llama-index>=0.9.8
+# haystack-ai>=0.1.0
+# weaviate-client>=3.25.3 

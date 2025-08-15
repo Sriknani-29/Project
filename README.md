@@ -1,6 +1,6 @@
 # Research Paper Q&A System (Rag Model Using LLM)
 
-## Overview
+## Overview 
 The **Research Paper Q&A System** is a Flask-based web application that allows users to:
 - Upload a research paper in PDF format.
 - Automatically extract and store the document’s content using **LangChain** and **ChromaDB**.

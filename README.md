@@ -1,34 +1,53 @@
 # CVPR for Rag Model Using LLM
 
 ## Overview 
-The **CVPR for Rag Model Using LLM** is a Flask-based web application that allows users to:
-- Upload a research paper in PDF format.
-- Automatically extract and store the document’s content using **LangChain** and **ChromaDB**.
-- Ask natural language questions about the research paper and get accurate answers.
-- Use **Ollama** for local embeddings and language model responses.
+This project is a **Retrieval-Augmented Generation (RAG)** system that allows users to upload academic research papers (PDFs) and ask natural language questions to extract context-aware answers.
 
-This project demonstrates **RAG (Retrieval-Augmented Generation)** to retrieve relevant document chunks and generate AI-based answers.
+It uses **Large Language Models (LLMs), vector databases, and semantic search** to go beyond traditional keyword-based document retrieval.
+
+The system is built using **Flask, LangChain, ChromaDB, and Ollama**, enabling efficient document understanding and AI-powered question answering.
 
 ---
 
+## Problem Statement
+Traditional document search systems rely on keyword matching, which fails to understand context and semantic meaning.
+
+This project solves that problem by:
+- Converting documents into vector embeddings  
+- Storing them in a vector database  
+- Retrieving semantically relevant content  
+- Generating accurate responses using an LLM  
+---
+
 ## Features
-- **Upload PDFs** directly from the browser.
-- **Text Chunking** using `RecursiveCharacterTextSplitter`.
-- **Vector Store** with `ChromaDB` for fast retrieval.
-- **Semantic Search** for context-based answers.
-- **LLM-powered responses** using `Ollama`.
-- **Flask Web Interface** for easy interaction.
+- Upload PDF research papers via web interface  
+- Automatic text extraction and chunking  
+- Vector embeddings stored in ChromaDB  
+- Semantic search across document content  
+- Context-aware question answering using LLMs  
+- Simple Flask-based web interface  
 
 ---
 
 ## Tech Stack
 - **Backend:** Python, Flask  
-- **LLM & Embeddings:** LangChain, Ollama (`mxbai-embed-large`)  
+- **LLM & Embeddings:** LangChain, Ollama (mxbai-embed-large)  
 - **Vector Database:** ChromaDB  
-- **Document Loader:** PyPDFLoader  
+- **Document Processing:** PyPDFLoader, RecursiveCharacterTextSplitter  
 - **Frontend:** HTML, CSS, JavaScript  
 
 ---
+
+## How It Works (Architecture)
+
+1. User uploads a PDF document  
+2. The document is split into smaller chunks  
+3. Each chunk is converted into embeddings  
+4. Embeddings are stored in ChromaDB  
+5. User submits a query  
+6. Query is converted into vector form  
+7. Relevant document chunks are retrieved  
+8. LLM generates a final contextual response  
 
 ## Project Structure
 ```bash

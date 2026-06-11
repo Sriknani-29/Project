@@ -1,4 +1,4 @@
-# CVPR for Rag Model Using LLM
+# Retrieval-Augmented Generation (RAG) System for Academic Research Papers using LLMs
 
 ## Overview 
 This project is a **Retrieval-Augmented Generation (RAG)** system that allows users to upload academic research papers (PDFs) and ask natural language questions to extract context-aware answers.
@@ -100,7 +100,7 @@ python app.py
 
 ---
 
-##Access the app in browser at:
+##Access the application in browser at:
 http://127.0.0.1:5000
 
 ---
